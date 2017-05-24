@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "description": "Beautiful CSS for single page sites - a myriad of options and components.",
   "scripts": {
-    "build": "cp src/page.scss dist/page.scss && node build.js",
+    "build": "node build.js",
     "watch": "node watch.js"
   },
   "dependencies": {
     "node-sass": "^4.5.3"
-  }
+  },
+  "license": "MIT"
 }
