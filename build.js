@@ -25,7 +25,7 @@ const opts1 = {
 
 sass.render(opts1, function(err, result) {
   if (err) {
-    console.error(err)
+    console.error('' + err)
     return
   }
 
@@ -35,7 +35,6 @@ sass.render(opts1, function(err, result) {
     log(' - ' + f)
   })
 
-  // console.log('Expanded:', result)
   fs.writeFile(opts1.outFile, result.css, log.bind(this, 'Written ' + opts1.outFile))
   fs.writeFile(opts1.outFile + '.map', result.map, log.bind(this, 'Written ' + opts1.outFile + '.map'))
 })
@@ -49,7 +48,7 @@ const opts2 = {
 
 sass.render(opts2, function(err, result) {
   if (err) {
-    console.error(err)
+    console.error('' + err)
     return
   }
 
@@ -59,9 +58,6 @@ sass.render(opts2, function(err, result) {
     log(' - ' + f)
   })
 
-  // console.log('Compressed:', result)
-  // fs.writeFile(opts2.outFile, result.css, console.log)
-  // fs.writeFile(opts2.outFile + '.map', result.map, console.log)
   fs.writeFile(opts2.outFile, result.css, log.bind(this, 'Written ' + opts2.outFile))
   fs.writeFile(opts2.outFile + '.map', result.map, log.bind(this, 'Written ' + opts2.outFile + '.map'))
 })
