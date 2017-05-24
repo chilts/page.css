@@ -1,8 +1,52 @@
 body {
     margin: 0;
     padding: 0;
-    font: 100% $font-stack;
+    font: 16px $font-stack;
     // font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     line-height: 1.5;
     color: $text-color;
+}
+
+
+main {
+    padding: 4em 1em;
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+footer {
+    padding: 2em 1em;
+    margin: 0 auto;
+    max-width: 50em;
+    border-top: 1px solid gray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  color: $header-color;
+}
+
+code, pre {
+    background: $pre-bg-color;
+}
+
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+    background: $code-bg-color;
+    border-bottom: 1px solid $secondary-color;
+    color: #a7adba;
+}
+
+pre {
+    padding: 1em;
+    border-left: 2px solid $secondary-color;
+}
+
+a {
+  color: $primary-color;
 }
