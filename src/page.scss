@@ -1,12 +1,23 @@
-.pagecss {
-
 // Base Styles
 @import "partials/_base";
 @import "partials/_theme";
-@import "partials/_general";
 
-// Components
+.pagecss {
 
-// Layouts
+  // See Footnote [box-sizing].
+  box-sizing: border-box;
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  @import "partials/_general";
+
+  // Components
+
+  // Layouts
 
 }
+
+// Footnotes:
+//
+// [box-sizing] https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
