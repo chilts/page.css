@@ -1,23 +1,10 @@
-body, .body {
-    margin: 0;
-    padding: 0;
-    font: 16px $font-stack;
-    // font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    line-height: 1.5;
-    color: $text-color;
-}
+// Always add a <main> tag. We don't add any styles to this, but you can add <main class="content"> if you like.
 
-main {
+// Use <section> inside <main> or separately if you want.
+section {
     padding: 4em 1em;
     margin: 0 auto;
     max-width: 50em;
-}
-
-footer {
-    padding: 2em 1em;
-    margin: 0 auto;
-    max-width: 50em;
-    border-top: 1px solid gray;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,7 +24,6 @@ code {
     padding: 2px 4px;
     vertical-align: text-bottom;
     background: $code-bg-color;
-    border-bottom: 1px solid $secondary-color;
     color: #a7adba;
 }
 
@@ -48,4 +34,11 @@ pre {
 
 a {
   color: $primary-color;
+  text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    border-top: 1px solid gray;
 }

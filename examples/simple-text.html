@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Page Example - PageCSS</title>
+    <link href="favicon.ico" rel="icon">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://pagecss.org/">
+    <meta name="twitter:creator" content="@andychilton">
+    <meta name="twitter:title" content="PageCSS">
+    <meta name="twitter:description" content="Beautiful CSS for single page sites - a myriad of options and components.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../dist/page.css">
+  </head>
+
+  <body class="pagecss">
+
+    <main class="content">
+
+      <section>
+
+        <h1>Simple Text</h1>
+
+        <p>
+          This page shows some simple text. It contains a <code>&lt;main&gt;</code> tag which itself contains
+          one <code>&lt;section&gt;</code> tag and not much more. We've added a <code>&lt;footer&gt;</code> too, just
+          to show you how that would work. The main content could be something generated from Markdown, Textile, or any
+          other
+          <a href="https://en.wikipedia.org/wiki/Lightweight_markup_language">lightweight markup language</a>,
+          or just plain hand written HTML.
+        </p>
+
+        <p>
+          We try and space out each section so you don't have to worry about vertical spacing. The same with lists,
+          pre, code, and other block-level elements so that they all just fit together nicely without you having to
+          tinker. All you need to do is put the <code>pagecss</code> class on your body and that's it. This page also
+          has the <code>content</code> class on the main tag to narrow and center the content.
+        </p>
+
+        <h2>Lists</h2>
+
+        <p>
+          PageCSS can do unordered lists, ordered lists, definition lists, and ??? nicely as standard. Here is a list
+          of legumes on Wikipedia:
+        </p>
+
+        <ul>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/List_of_edible_seeds" title="List of edible seeds">List of edible seeds</a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/List_of_legume_dishes" title="List of legume dishes">List of legume dishes</a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/List_of_tofu_dishes" title="List of tofu dishes">List of tofu dishes</a>
+          </li>
+        </ul>
+
+        <p>And this is the top-three list of Men's Long Jump atheletes of all time:</p>
+
+        <ol>
+          <li>Mike Powell</li>
+          <li>Bob Beamon</li>
+          <li>Carl Lewis</li>
+        </ol>
+
+        <p>(Ends)</p>
+
+      </section>
+
+    </main>
+
+    <footer class="content">
+      <p>This is a rather plain footer - just a <code>&lt;p&gt;</code> in a <code>&lt;footer&gt;</code>.</p>
+    </footer>
+
+  </body>
+</html>

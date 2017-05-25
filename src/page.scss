@@ -2,6 +2,17 @@
 @import "partials/_base";
 @import "partials/_theme";
 
+body, .pagecss {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: $text-color;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: $text-color;
+    background-color: $bg-color;
+}
+
 .pagecss {
 
   // See Footnote [box-sizing].
@@ -15,6 +26,7 @@
   // Components
 
   // Layouts
+  @import "partials/_layout";
 
 }
 
