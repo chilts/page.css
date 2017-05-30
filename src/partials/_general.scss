@@ -32,6 +32,10 @@ pre {
   border-left: 2px solid $secondary-color;
 }
 
+pre > code {
+  background-color: inherit;
+}
+
 a {
   color: $primary-color;
   text-decoration: none;

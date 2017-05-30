@@ -11,10 +11,10 @@ nav {
   padding: 0.5em 0;
 
   ul {
-    background-color: $nav-bg-color;
+    background-color: $nav-bg-color-dark;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0 1em;
 
     li:first {
       a {
@@ -33,12 +33,26 @@ nav {
       }
 
       a {
-        color: $nav-color;
+        color: $nav-color-dark;
       }     
 
       span {
-        color: $nav-span-color;
+        color: $nav-span-color-dark;
       }     
+    }
+  }
+}
+
+nav.inverse {
+  ul {
+    background-color: $nav-bg-color-light;
+    li {
+      a {
+        color: $nav-color-light;
+      }
+      span {
+        color: $nav-span-color-light;
+      }
     }
   }
 }

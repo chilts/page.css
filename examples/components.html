@@ -42,6 +42,17 @@
           </nav>
         </header>
 
+<pre><code>&lt;header&gt;
+  &lt;nav&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;/&quot;&gt;PageCSS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;
+</code></pre>
+
         <p>
           As you can see, you can just use plain elements with no classes added anywhere. And did you notice that first
           item in the list is slighty bigger? That's because we wrapped it all in a <code>&lt;header&gt;</code>, so
@@ -59,6 +70,16 @@
           </ul>
         </nav>
 
+<pre><code>&lt;nav&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;/&quot;&gt;&lt;i class=&quot;fa fa-home&quot;&gt;&lt;/i&gt; PageCSS&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;u-right&quot;&gt;&lt;span&gt;By AppsAttic&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre>
+
         <p>
           Yes, you can use FontAwesome icons too. Just do the standard <code>&lt;i class=&quot;fa
           fa-home&quot;&gt;&lt;/&gt;</code> as in the example above
@@ -68,7 +89,8 @@
 
         <p>
           Here's a navbar with a right hand list. It's just one extra class needed. Also note how you don't have to do
-          anything extra if you just want plain text rather than a link in each item.
+          anything extra if you just want plain text rather than a link in each item, just
+          use <code>&lt;span&gt;</code> instead of <code>&lt;a&gt;</code>.
         </p>
 
         <nav>
@@ -81,9 +103,42 @@
           </ul>
         </nav>
 
+<pre><code>&lt;nav&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;/&quot;&gt;PageCSS&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;u-right&quot;&gt;&lt;a href=&quot;#login&quot;&gt;Login&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;u-right&quot;&gt;&lt;span&gt;Welcome&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre>
+
         <p>
-          So just mix your <code></code>.
+          And a <code>.inverse</code> version too. Just put it on the nav such as
+          <code>&lt;nav class=&quot;inverse&quot;&gt;</code>.
         </p>
+
+        <nav class="inverse">
+          <ul>
+            <li><a href="/">PageCSS</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="u-right"><a href="#login">Login</a></li>
+            <li class="u-right"><span>Welcome</span></li>
+          </ul>
+        </nav>
+
+<pre><code>&lt;nav class=&quot;inverse&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;/&quot;&gt;PageCSS&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;u-right&quot;&gt;&lt;a href=&quot;#login&quot;&gt;Login&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;u-right&quot;&gt;&lt;span&gt;Welcome&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre>
 
         <p>(Ends)</p>
 
