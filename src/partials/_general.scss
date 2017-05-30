@@ -2,14 +2,14 @@
 
 // Use <section> inside <main> or separately if you want.
 section {
-    padding: 4em 1em;
-    margin: 0 auto;
-    max-width: 50em;
+  padding: 4em 1em;
+  margin: 0 auto;
+  max-width: 50em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 1em;
-    padding-top: 1em;
+  margin-top: 1em;
+  padding-top: 1em;
 }
 
 h1, h2, h3, h4, h5, h6, strong {
@@ -17,19 +17,19 @@ h1, h2, h3, h4, h5, h6, strong {
 }
 
 code, pre {
-    background: $pre-bg-color;
+  background: $pre-bg-color;
 }
 
 code {
-    padding: 2px 4px;
-    vertical-align: text-bottom;
-    background: $code-bg-color;
-    color: #a7adba;
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+  background: $code-bg-color;
+  color: #a7adba;
 }
 
 pre {
-    padding: 1em;
-    border-left: 2px solid $secondary-color;
+  padding: 1em;
+  border-left: 2px solid $secondary-color;
 }
 
 a {
@@ -37,8 +37,13 @@ a {
   text-decoration: none;
 }
 
+mark {
+  padding: .2em;
+  background-color: $highlight-color;
+}
+
 footer {
-    text-align: center;
-    padding: 1em;
-    border-top: 1px solid gray;
+  text-align: center;
+  padding: 1em;
+  border-top: 1px solid gray;
 }

@@ -21,13 +21,17 @@ body, .pagecss {
     box-sizing: inherit;
   }
 
+  // General plain tags
   @import "partials/_general";
 
-  // Components
+  // Utility styles
+  @import "partials/_utility";
 
   // Layouts
   @import "partials/_layout";
 
+  // Components
+  @import "partials/_navbar";
 }
 
 // Footnotes:

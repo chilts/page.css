@@ -1,0 +1,44 @@
+header nav {
+  padding-top: 0;
+
+  ul li:first-child {
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+}
+
+nav {
+  padding: 0.5em 0;
+
+  ul {
+    background-color: $nav-bg-color;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li:first {
+      a {
+
+      }
+    }
+
+    li {
+      display: inline-block;
+
+      a, span {
+        display: inline-block;
+        line-height: 3.5em;
+        padding: 0.5em 1em;
+        vertical-align: middle;
+      }
+
+      a {
+        color: $nav-color;
+      }     
+
+      span {
+        color: $nav-span-color;
+      }     
+    }
+  }
+}
