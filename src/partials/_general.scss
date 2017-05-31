@@ -46,6 +46,12 @@ mark {
   background-color: $highlight-color;
 }
 
+kbd {
+  padding: .2em;
+  border-radius: 4px;
+  background-color: $highlight-color;
+}
+
 footer {
   text-align: center;
   padding: 1em;
