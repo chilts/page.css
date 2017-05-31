@@ -36,6 +36,10 @@ nav {
         color: $nav-color-dark;
       }     
 
+      a:hover {
+        background-color: $nav-bg-color-dark-hover;
+      }
+
       span {
         color: $nav-span-color-dark;
       }     
@@ -49,6 +53,9 @@ nav.inverse {
     li {
       a {
         color: $nav-color-light;
+      }
+      a:hover {
+        background-color: $nav-bg-color-light-hover;
       }
       span {
         color: $nav-span-color-light;
