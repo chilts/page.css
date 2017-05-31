@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PageCSS - Example Pages</title>
+    <title>Full Width Example - PageCSS</title>
     <link href="favicon.ico" rel="icon">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="https://pagecss.org/">
@@ -19,40 +19,39 @@
 
   <body class="pagecss">
 
-    <main class="container">
+    <main>
 
       <section>
 
-        <h1>PageCSS Examples</h1>
+        <h1>A Section and a Heading</h1>
 
         <p>
-          PageCSS is a lightweight, easy to use way to make your pages just look nicer! Using PageCSS is simple and
-          gives your pages a light washover to make them look clean, simple, and readable.
+          Let's see how it looks without any <code>.container</code> class added anywhere. Firstly, this is just a section
+          with a heading and a paragraph. Let's try looking at some <code>&lt;nav&gt;</code>.
         </p>
 
-        <ul>
-          <li><a href="simple-text.html">Simple Text (e.g. Markdown)</a></li>
-          <li><a href="components.html">Components</a></li>
-          <li><a href="full-width.html">Full Width</a></li>
-        </ul>
+      </section>
 
-        <p>
-          (Ends)
-        </p>
+      <section>
+
+        <nav class="inverse">
+          <ul>
+            <li><a href="/">PageCSS</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="u-right"><a href="#login">Login</a></li>
+            <li class="u-right"><span>Welcome</span></li>
+          </ul>
+        </nav>
+
+        <p>That was a nav with some menu items in it.</p>
 
       </section>
 
     </main>
 
-    <footer class="container">
-      <p>
-        Made with
-        <a href="https://pagecss.org/">PageCSS</a>
-        and &hearts; by
-        <a href="https://chilts.org/">Andy Chilton</a>.
-        View the
-        <a href="https://github.com/chilts/pagecss">source on GitHub <i class="fa fa-external-link" aria-hidden="true"></i></a>.
-      </p>
+    <footer>
+      <p>This is a rather plain footer - just a <code>&lt;p&gt;</code> in a <code>&lt;footer&gt;</code>.</p>
     </footer>
 
   </body>
