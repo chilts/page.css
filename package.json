@@ -1,6 +1,6 @@
 {
   "name": "pagecss",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Beautiful CSS for single page sites - simple all the way up!",
   "main": "dist/page.css",
   "style": "dist/page.min.css",
