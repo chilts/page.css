@@ -18,9 +18,8 @@ body, .pagecss {
 }
 
 .pagecss section {
-  padding: 4em 1em;
+  padding: 2em 0;
   margin: 0 auto;
-  max-width: 50em;
 }
 
 .pagecss h1, .pagecss h2, .pagecss h3, .pagecss h4, .pagecss h5, .pagecss h6 {
@@ -48,9 +47,30 @@ body, .pagecss {
   border-left: 2px solid #7fdbff;
 }
 
+.pagecss pre > code {
+  background-color: inherit;
+}
+
 .pagecss a {
   color: #39cccc;
   text-decoration: none;
+}
+
+.pagecss img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.pagecss mark {
+  padding: .2em;
+  background-color: #fcf8e3;
+}
+
+.pagecss kbd {
+  padding: .2em;
+  border-radius: 4px;
+  background-color: #fcf8e3;
 }
 
 .pagecss footer {
@@ -59,9 +79,95 @@ body, .pagecss {
   border-top: 1px solid gray;
 }
 
-.pagecss .content {
+.pagecss .u-right {
+  float: right;
+}
+
+.pagecss .u-left {
+  float: left;
+}
+
+.pagecss .u-align-left {
+  text-align: left;
+}
+
+.pagecss .u-align-right {
+  text-align: right;
+}
+
+.pagecss .u-align-center {
+  text-align: center;
+}
+
+.pagecss .container {
   margin: 0 auto;
   max-width: 50em;
+}
+
+.pagecss .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.pagecss header nav {
+  padding-top: 0;
+}
+
+.pagecss header nav ul li:first-child {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.pagecss nav {
+  padding: 0.5em 0;
+}
+
+.pagecss nav ul {
+  background-color: #111;
+  list-style: none;
+  margin: 0;
+  padding: 0 1em;
+}
+
+.pagecss nav ul li {
+  display: inline-block;
+}
+
+.pagecss nav ul li a, .pagecss nav ul li span {
+  display: inline-block;
+  line-height: 3.5em;
+  padding: 0.5em 1em;
+  vertical-align: middle;
+}
+
+.pagecss nav ul li a {
+  color: #fff;
+}
+
+.pagecss nav ul li a:hover {
+  background-color: #333;
+}
+
+.pagecss nav ul li span {
+  color: #bbb;
+}
+
+.pagecss nav.inverse ul {
+  background-color: #eceeef;
+}
+
+.pagecss nav.inverse ul li a {
+  color: #292B2C;
+}
+
+.pagecss nav.inverse ul li a:hover {
+  background-color: #dcdedf;
+}
+
+.pagecss nav.inverse ul li span {
+  color: #292B2C;
 }
 
 /*# sourceMappingURL=page.css.map */
